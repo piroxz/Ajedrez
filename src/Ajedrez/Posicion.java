@@ -1,11 +1,13 @@
 package Ajedrez;
 
-public class Posicion {
+public class Posicion extends Tablero{
 
 	protected int fila;
 	protected int columna;
+	protected  Tabla [][] tabla;
 	
 	public Posicion(){
+		tabla[fila][columna] = [8][8];
 		fila = 0;
 		columna = 0;
 	}
