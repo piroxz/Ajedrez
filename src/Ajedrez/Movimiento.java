@@ -2,28 +2,25 @@ package Ajedrez;
 
 public class Movimiento {
 
-	protected int posInicial;
-	protected int posFinal;
+	protected Posicion posInicial;
+	protected Posicion posFinal;
 	
 	public Movimiento(){
 		posInicial = 0 ;
 		posFinal = 0 ;
 	}
 	
-	public Movimiento(int posInicial,int posFinal){
+	public Movimiento(Posicion posInicial,Posicion posFinal){
 		this.posInicial = posInicial;
 		this.posFinal = posFinal;	
 	}
 	
 	public boolean esVertical(){
 		
-		 boolean vertical = true;
-		 
-		if(posInicial%2 != 0){
-			return vertical ;
-		}else
-			return vertical = false;
-	
+		 boolean vertical = false;
+		 if (posInicial.columna==posFinal.columna)
+			 vertical=true;
+		 return vertical;
 	}
 	
 	

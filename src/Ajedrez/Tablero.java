@@ -3,8 +3,7 @@ package Ajedrez;
 public class Tablero {
 
 	protected Pieza tabla[][] ;
-	protected int fila;
-	protected int columna;
+	
 	
 	
 	public Tablero(){
