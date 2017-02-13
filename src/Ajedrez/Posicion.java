@@ -4,12 +4,12 @@ public class Posicion extends Tablero{
 
 	protected int fila;
 	protected int columna;
-	protected  Tabla [][] tabla;
+	protected Pieza [][] tabla ;
 	
 	public Posicion(){
-		tabla[fila][columna] = [8][8];
 		fila = 0;
 		columna = 0;
+		tabla[7][7] = [fila][columna];
 	}
 	
 	public int getfila(){

@@ -3,7 +3,10 @@ package Ajedrez;
 public class Tester {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		
+		Tabla tabla  = new Tabla;
+		
 
 	}
 

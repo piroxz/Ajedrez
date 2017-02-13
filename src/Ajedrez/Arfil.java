@@ -1,8 +1,17 @@
 package Ajedrez;
 
 public class Arfil extends Pieza {
+	
 	public Arfil() {
-		// TODO Auto-generated constructor stub
+		super();
 	}
+	public Arfil(String nombre,String color){
+		this.nombre = nombre;
+		this.color = color;
+	}
+	
+	
+	
+	
 	
 }
