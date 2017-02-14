@@ -11,14 +11,15 @@ public class Posicion {
 		columna = 0;
 		
 	}
-	/*public Posicion(){
+	public Posicion(int fila, int columna){
+		this.columna = columna;
+		this.fila = fila;
 		
-		
-	}*/
-	public int getfila(){
+	}
+	public int getFila(){
 		return fila;
 	}
-	public int columna(){
+	public int getColumna(){
 		return columna;
 	}
 	

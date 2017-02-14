@@ -6,8 +6,12 @@ public class Arfil extends Pieza {
 		super();
 	}
 	public Arfil(String nombre,String color){
-		this.nombre = nombre;
-		this.color = color;
+		super();
+	}
+	@Override
+	public void validarMovimiento(Posicion posInicial, Posicion posFinal) {
+		// TODO Auto-generated method stub
+		
 	}
 	
 	

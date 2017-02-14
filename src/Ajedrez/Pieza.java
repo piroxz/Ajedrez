@@ -30,8 +30,10 @@ public abstract class Pieza {
 	public void setcolor(String color){
 		this.color = color;
 	}
-	 public void setnombre(String nombre){
-		 this.nombre = nombre;
-	 }
-	public abstract validarMovimiento()
+	public void setnombre(String nombre){
+		this.nombre = nombre;
+	}
+	
+
+	public abstract void validarMovimiento(Posicion posInicial ,Posicion posFinal);
 }

@@ -5,10 +5,6 @@ public class Movimiento {
 	protected Posicion posInicial;
 	protected Posicion posFinal;
 	
-	public Movimiento(){
-		posInicial = 0 ;
-		posFinal = 0 ;
-	}
 	
 	public Movimiento(Posicion posInicial,Posicion posFinal){
 		this.posInicial = posInicial;
@@ -26,25 +22,35 @@ public class Movimiento {
 	
 	public boolean esHorizontal(){
 		
-		boolean vertical = true;
-		
-		if(posInicial%2 == 0){
-			return vertical ;
-		}else
-			return vertical = false;
+		boolean horizontal = false;
+		if (posInicial.fila==posFinal.fila)
+			horizontal = true;
+		return horizontal;
 	}
 	
 	public boolean esDiagonal(){
 		
+		boolean diagonal = false;
+		if (posInicial.fila!=posFinal.fila)
+			diagonal = true;
+		return diagonal;
 	}
 	
 	public int saltoHorizontal(){
-		
+		int saltoHori = 0;
+		saltoHori = posInicial.columna - posFinal.columna ;
+		if (saltoHori < 0)
+			saltoHori = saltoHori *(-1);
+		return saltoHori;
 		
 	}
 	
 	public int saltoVertical(){
-		
+		int saltoVer = 0;
+		saltoVer = posInicial.fila - posFinal.fila;
+		if (saltoVer < 0 )
+			saltoVer = saltoVer * (-1);
+		return saltoVer;
 	}
 	
 }
