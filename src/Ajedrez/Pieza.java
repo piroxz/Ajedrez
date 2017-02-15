@@ -36,4 +36,5 @@ public abstract class Pieza {
 	
 
 	public abstract void validarMovimiento(Posicion posInicial ,Posicion posFinal);
+	public abstract void pintarPieza(String color, String nombre);
 }

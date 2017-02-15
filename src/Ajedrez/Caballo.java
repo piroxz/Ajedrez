@@ -6,4 +6,13 @@ public class Caballo extends Pieza{
 		System.out.println("");
 	}
 	
+	
+	@Override
+	public void validarMovimiento(Posicion posInicial, Posicion posFinal){
+		
+	}
+	@Override
+	public void pintarPieza(String nombre, String color){
+		
+	}
 }

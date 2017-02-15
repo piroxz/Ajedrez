@@ -20,6 +20,11 @@ public class Movimiento {
 	}
 	
 	
+	
+	public int comprobarMov(){
+		
+	}
+	
 	public boolean esHorizontal(){
 		
 		boolean horizontal = false;
