@@ -7,8 +7,7 @@ public class Torre extends Pieza{
 	}
 	
 	public Torre(String nombre,String color){
-		this.nombre = nombre;
-		this.color = color;
+		super();
 	}
 	
 	

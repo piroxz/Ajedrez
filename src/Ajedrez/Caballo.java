@@ -3,9 +3,11 @@ package Ajedrez;
 public class Caballo extends Pieza{
 
 	public Caballo (){
-		System.out.println("");
+		super();
 	}
-	
+	public Caballo(String nombre,String color){
+		super();
+	}
 	
 	@Override
 	public void validarMovimiento(Posicion posInicial, Posicion posFinal){

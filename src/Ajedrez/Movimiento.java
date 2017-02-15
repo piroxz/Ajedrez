@@ -44,8 +44,7 @@ public class Movimiento {
 	public int saltoHorizontal(){
 		int saltoHori = 0;
 		saltoHori = posInicial.columna - posFinal.columna ;
-		if (saltoHori < 0)
-			saltoHori = saltoHori *(-1);
+		
 		return saltoHori;
 		
 	}

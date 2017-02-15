@@ -34,7 +34,8 @@ public abstract class Pieza {
 		this.nombre = nombre;
 	}
 	
-
+	// esto es un metodo abstracto que se van a usar en sus hijos (en este caso en cada pieza del ajedrez
+	
 	public abstract void validarMovimiento(Posicion posInicial ,Posicion posFinal);
 	public abstract void pintarPieza(String color, String nombre);
 }

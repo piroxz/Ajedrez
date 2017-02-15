@@ -5,7 +5,9 @@ public class Tester {
 	public static void main(String[] args) {
 		
 		
-		Tabla tabla  = new Tabla;
+		Tablero tablero  = new Tablero();
+		Juego juego = new juego();
+		Movimiento mov = juego.Jugada("C2D4", tablero.tabla);
 		
 
 	}
