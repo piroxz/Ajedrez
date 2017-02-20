@@ -1,5 +1,7 @@
 package Ajedrez;
 
+import java.util.Scanner;
+
 public class Juego {
 	
 	private int elTurno;
@@ -23,7 +25,38 @@ public class Juego {
 	
 	public Movimiento Jugada(String jugada,Pieza tabla[][]){
 		Movimiento mov = null;
+		
+		char 0 = jugada.charAt(0); 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		return mov;
+		
+		
 	}
 	
 	

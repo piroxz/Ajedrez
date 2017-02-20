@@ -23,6 +23,7 @@ public class Movimiento {
 	
 	public int comprobarMov(){
 		
+		
 	}
 	
 	public boolean esHorizontal(){
@@ -44,7 +45,6 @@ public class Movimiento {
 	public int saltoHorizontal(){
 		int saltoHori = 0;
 		saltoHori = posInicial.columna - posFinal.columna ;
-		
 		return saltoHori;
 		
 	}
