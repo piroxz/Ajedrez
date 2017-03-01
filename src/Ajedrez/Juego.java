@@ -29,31 +29,7 @@ public class Juego {
 		char 0 = jugada.charAt(0); 
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	
 		return mov;
 		
 		

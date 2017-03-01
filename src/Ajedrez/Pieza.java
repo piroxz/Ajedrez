@@ -9,12 +9,13 @@ public abstract class Pieza {
 	protected String nombre;
 	
 	
-	
+	// inicializa los atributos 
 	public Pieza(){
 		color = "Blancas";
 		nombre = "Peon";
 	}
 	
+	// lso get devuelve los datos 
 	public String pintarPieza(){
 		return color+nombre;
 	}
@@ -27,6 +28,7 @@ public abstract class Pieza {
 		return nombre ;
 	}
 	
+	// los set modifica los datos 
 	public void setcolor(String color){
 		this.color = color;
 	}
@@ -36,6 +38,6 @@ public abstract class Pieza {
 	
 	// esto es un metodo abstracto que se van a usar en sus hijos (en este caso en cada pieza del ajedrez
 	
-	public abstract void validarMovimiento(Posicion posInicial ,Posicion posFinal);
-	public abstract void pintarPieza(String color, String nombre);
+	public abstract boolean validarMovimiento(Posicion posInicial ,Posicion posFinal);
+	public abstract boolean pintarPieza(String color, String nombre);
 }

@@ -1,5 +1,7 @@
 package Ajedrez;
 
+// clase alfil que hereda de Pieza
+
 public class Alfil extends Pieza {
 	
 	public Alfil() {
@@ -11,12 +13,18 @@ public class Alfil extends Pieza {
 		
 	}
 	@Override
-	public void validarMovimiento(Posicion posInicial, Posicion posFinal) {
-		// TODO Auto-generated method stub
+	public boolean validarMovimiento(Posicion posInicial, Posicion posFinal) {
+		boolean validaMovimient = false;
+		if(posInicial.getColumna()-posFinal.getColumna() ==  posInicial.getFila()-posFinal.getColumna()){
+			validaMovimient = true; 
+		}
+		 
+		return validaMovimient;
+		
 		
 	}
 	@Override
-	public void pintarPieza(String color, String nombre) {
+	public boolean pintarPieza(String color, String nombre) {
 		// TODO Auto-generated method stub
 		
 	}
