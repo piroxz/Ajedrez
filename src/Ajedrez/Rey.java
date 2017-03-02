@@ -1,5 +1,7 @@
 package Ajedrez;
 
+//clase alfil que hereda de Pieza
+
 public class Rey extends Pieza{
 
 	

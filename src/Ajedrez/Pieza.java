@@ -2,9 +2,9 @@ package Ajedrez;
 
 
 
-//empezar por aki y luego seguir en tablero
-public abstract class Pieza {
 
+public abstract class Pieza {
+	//atributos de la clase Pieza .
 	protected String color;
 	protected String nombre;
 	
@@ -15,12 +15,12 @@ public abstract class Pieza {
 		nombre = "Peon";
 	}
 	
-	// lso get devuelve los datos 
+	
 	public String pintarPieza(){
 		return color+nombre;
 	}
 	
-	
+	//el Get nos sirve para obtener (recuperar o acceder) el valor ya asignado a un atributo .	
 	public String getcolor(){
 		return color ;
 	}
@@ -36,7 +36,7 @@ public abstract class Pieza {
 		this.nombre = nombre;
 	}
 	
-	// esto es un metodo abstracto que se van a usar en sus hijos (en este caso en cada pieza del ajedrez
+	// esto es un metodo abstracto que se van a usar en sus hijos (en este caso en cada pieza del ajedrez)
 	
 	public abstract boolean validarMovimiento(Posicion posInicial ,Posicion posFinal);
 	public abstract boolean pintarPieza(String color, String nombre);
