@@ -1,11 +1,29 @@
 package Ajedrez;
-
+/**
+* Juego de Ajedrez
+* 
+* Contiene informacion del Tablero
+* 
+* 
+*
+* @author Robert
+* 
+* @version 1.0
+*/
 public class Tablero {
-
+	//atributos de la clase Tablero .
+	
+		/**
+		* array bidimencional tabla en tablero
+		*/
 	protected Pieza tabla[][] ;
 	
 	
+
 	
+		/**
+		*	constructor por defecto de la clase Tablero
+		*/
 	public Tablero(){
 		tabla[0][0] = new Torre("color","nombre");
 		tabla[0][1] = new Caballo("color","nombre");	
